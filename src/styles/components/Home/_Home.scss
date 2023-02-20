@@ -1,0 +1,24 @@
+#container_home{
+    @include container_pages();
+
+    #input_home {
+        width: 67%;
+        border-radius: 17px;
+        padding: 1%;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+#btn_home{
+    @include buttons();
+
+ 
+}
+
+#btn_home:hover{
+    background-color: #00398d;
+    transition: all 0.5s;
+}

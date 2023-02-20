@@ -1,0 +1,22 @@
+#nav {
+   
+    background-color: $color_one;
+    padding: 2%;
+   
+
+    a{
+        color: $color_three;
+        text-decoration: none;
+        padding: 10px;
+    }
+    a:hover{
+        background-color: $color_four;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+
+  .active {
+    color: $color_two;
+  }
+
+}
